@@ -1,0 +1,40 @@
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.py.class
+
+# 🧱 Ambientes virtuais
+venv/
+env/
+.venv/
+
+# 📦 Dependências locais
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# 🧰 Configurações do VSCode
+.vscode/
+
+# 🔑 Arquivos de ambiente (se existirem)
+.env
+*.env
+
+# 🧪 Testes
+.coverage
+htmlcov/
+.pytest_cache/
+
+# 🧹 Logs e caches
+*.log
+*.sqlite3
+*.db
+.cache/
+.mypy_cache/
+
+# 🚫 Sistema
+.DS_Store
+Thumbs.db
