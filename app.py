@@ -20,7 +20,7 @@ def create_task():
 
     tasks.append(new_task)  # adiciona a nova task convertida em dicionário
     print(data)
-    return jsonify(({"message": "Task created successfully"})), 201
+    return jsonify(({"message": "Task created successfully", "id": new_task.id})), 201
 
 
 @app.route("/tasks", methods=["GET"])
